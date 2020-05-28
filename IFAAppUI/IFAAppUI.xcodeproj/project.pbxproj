@@ -410,7 +410,6 @@
 				F7650ABB1BE9548000B97932 /* Frameworks */,
 				F7650ABC1BE9548000B97932 /* Headers */,
 				F7650ABD1BE9548000B97932 /* Resources */,
-				7478BB986E7DA88A1046B392 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -431,7 +430,6 @@
 				F7650AC71BE9548000B97932 /* Resources */,
 				F7650F381BEBFA7800B97932 /* CopyFiles */,
 				658593824C645A0AC34D0E84 /* [CP] Embed Pods Frameworks */,
-				F44E18A9534BF0A04E49233C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -528,7 +526,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../Pods/Target Support Files/Pods-IFAAppUI-IFAAppUITests/Pods-IFAAppUI-IFAAppUITests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-IFAAppUI-IFAAppUITests/Pods-IFAAppUI-IFAAppUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IFACoreUI/IFACoreUI.framework",
 				"${BUILT_PRODUCTS_DIR}/IFAFoundation/IFAFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
@@ -541,22 +539,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-IFAAppUI-IFAAppUITests/Pods-IFAAppUI-IFAAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7478BB986E7DA88A1046B392 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-IFAAppUI/Pods-IFAAppUI-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IFAAppUI-IFAAppUITests/Pods-IFAAppUI-IFAAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AFAC737C79E1A3D9324EEFCB /* [CP] Check Pods Manifest.lock */ = {
@@ -575,21 +558,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F44E18A9534BF0A04E49233C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-IFAAppUI-IFAAppUITests/Pods-IFAAppUI-IFAAppUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
